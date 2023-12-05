@@ -10,11 +10,15 @@ body {
 
 
 .navbar {
-    background-color: black;
+    background-color: #9370db;
+}
+.nav-item:hover {
+    color: rgb(255, 255, 255);
 }
 
 .navbar-nav .nav-link:hover {
-    color: #dda0dd; /* Plum text on hover */
+    color: #930093;
+    background-color: rgb(126, 84, 151);
 }
 
 .jumbotron {
@@ -22,10 +26,13 @@ body {
 }
 
 .card {
-    background-color: #000000; /* Lilac cards */
+    background-color: #9370db; /* Lilac cards */
 }
 
 footer {
     background-color: #9370db; /* Dark Lilac footer */
     color: white; /* White text in footer */
 }
+
+footer a:hover {
+    color: #930093;}
